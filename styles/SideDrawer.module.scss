@@ -1,0 +1,13 @@
+.SideDrawer {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
+    transition: all 0.5s ease-out;
+}
+
+.SideDrawerHidden {
+    transform: translate(100%, 0);
+    // border: 5px solid red !important;
+}

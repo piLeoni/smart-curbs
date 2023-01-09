@@ -1,0 +1,19 @@
+/* Color Theme Swatches in Hex */
+
+
+/* Color Theme Swatches in Hex */
+
+$primary-color: #1F2E4B;
+$secondary-color: #1F7FF0;
+$error-color: #dd4b79;
+$warning-color: #f78bfb;
+$info-color: #E5E1D1;
+$success-color: #4EE2C0;
+:export {
+    primaryColor: $primary-color;
+    secondaryColor: $secondary-color;
+    errorColor: $error-color;
+    warningColor: $warning-color;
+    infoColor: $info-color;
+    successColor: $success-color;
+}

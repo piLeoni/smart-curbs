@@ -1,0 +1,25 @@
+.MapWrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.MapContainer {
+    height: 100%;
+    overflow: hidden;
+}
+
+.Selector {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.DetailsDrawer {
+    transition: all 0.5s ease-out;
+}
+
+.DetailsDrawerHidden {
+    transform: translate(100%, 0);
+    // border: 5px solid red !important;
+}

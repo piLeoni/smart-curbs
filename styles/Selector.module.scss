@@ -1,0 +1,23 @@
+.select {
+    &::before {
+        border-color: "red";
+    }
+    &::after {
+        border-color: "red";
+    }
+    &:not(.Mui-disabled):hover::before {
+        border-color: "red";
+    }
+}
+
+.icon {
+    fill: "red";
+}
+
+.root {
+    color: "red";
+}
+
+.Input {
+    background-color: lightgreen;
+}

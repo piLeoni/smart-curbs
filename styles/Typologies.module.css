@@ -1,0 +1,39 @@
+.diagramWrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.mapDiagram {
+    position: absolute;
+    width: 90%;
+    bottom: 0px;
+    /* border: 2px solid red; */
+    /* border: 5px solid blue; */
+}
+
+.polarDiagram {
+    position: absolute;
+    width: 35%;
+    top: 0px;
+    right: 0px;
+    margin: 5px;
+    /* border: 2px solid red; */
+    z-index: 2;
+}
+
+.diagramDetails {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 10px;
+    z-index: 2;
+}
+
+.navPanel {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 10px;
+    z-index: 2;
+}

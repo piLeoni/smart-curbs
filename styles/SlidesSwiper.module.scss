@@ -1,0 +1,53 @@
+@import './theme/Variables.module.scss';
+.SlideFrame {
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    position: relative;
+    // border: 2px solid red;
+}
+
+.SlideImage {
+    width: 100%;
+}
+
+.OverlayColor {
+    position: absolute;
+    background-color: $secondary-color;
+    opacity: 0.075;
+    background-blend-mode: lighten;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.fullScreenWrapper {
+    // border: 5px solid red;
+}
+
+.fullScreenSlide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.fullScreenImage {
+    height: 90vh;
+}
+
+.whitePagination .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+    background-color: white !important;
+}
+
+.sliderWrapper {
+     :global(.swiper-pagination-bullet) {
+        background: white;
+        opacity: 0.2;
+    }
+     :global(.swiper-pagination-bullet-active) {
+        background-color: $secondary-color;
+        opacity: 1
+    }
+}
