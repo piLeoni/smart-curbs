@@ -7,7 +7,9 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "export": "next build && next export",
+        "export": "next build && next export && touch ./out/.nojekyll",
+        "homepage": "https://pileoni.github.io/smart-curbs",
+        "deploy": "gh-pages -d out",
         "deployPi": "rsync -chavzP --delete  -e 'ssh'  ./out pi@pileoni.mit.edu:/home/pi/ratp-site"
     },
     "dependencies": {
@@ -44,6 +46,7 @@
     },
     "devDependencies": {
         "eslint": "8.15.0",
-        "eslint-config-next": "12.1.6"
+        "eslint-config-next": "12.1.6",
+        "gh-pages": "^5.0.0"
     }
 }
