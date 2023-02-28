@@ -1,0 +1,170 @@
+[
+  {
+    "key": "id",
+    "label": "id",
+    "min": 0,
+    "max": 17162
+  },
+  {
+    "key": "grid_area",
+    "label": "grid area",
+    "min": 0,
+    "max": 10003
+  },
+  {
+    "key": "unique_id",
+    "label": "unique id",
+    "min": 0,
+    "max": 17161
+  },
+  {
+    "key": "curb_lengt",
+    "label": "curb lengt",
+    "min": 0,
+    "max": 983
+  },
+  {
+    "key": "curb_parki",
+    "label": "curb parki",
+    "min": 0,
+    "max": 2
+  },
+  {
+    "key": "builtarea",
+    "label": "builtarea",
+    "min": 0,
+    "max": 7900
+  },
+  {
+    "key": "height_ave",
+    "label": "height ave",
+    "min": 0,
+    "max": 92
+  },
+  {
+    "key": "road_area",
+    "label": "road area",
+    "min": 0,
+    "max": 9967
+  },
+  {
+    "key": "terrace_ar",
+    "label": "terrace ar",
+    "min": 0,
+    "max": 969
+  },
+  {
+    "key": "tree_count",
+    "label": "tree count",
+    "min": 0,
+    "max": 415
+  },
+  {
+    "key": "tree",
+    "label": "tree",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "key": "road",
+    "label": "road",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "key": "sky",
+    "label": "sky",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "key": "sidewalk",
+    "label": "sidewalk",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "key": "poi_var",
+    "label": "poi var",
+    "min": 0,
+    "max": 6
+  },
+  {
+    "key": "poi_count",
+    "label": "poi count",
+    "min": 0,
+    "max": 8
+  },
+  {
+    "key": "bikelane_l",
+    "label": "bikelane l",
+    "min": 0,
+    "max": 819
+  },
+  {
+    "key": "bus_st_cou",
+    "label": "bus st cou",
+    "min": 0,
+    "max": 10
+  },
+  {
+    "key": "bike_st_co",
+    "label": "bike st co",
+    "min": 0,
+    "max": 2
+  },
+  {
+    "key": "ward_clust",
+    "label": "ward clust",
+    "min": 0,
+    "max": 6
+  },
+  {
+    "key": "cluster",
+    "label": "cluster",
+    "min": 0,
+    "max": 6
+  },
+  {
+    "key": "activity_a",
+    "label": "activity a",
+    "min": 0,
+    "max": 33
+  },
+  {
+    "key": "connected_nodes",
+    "label": "connected nodes",
+    "min": 0,
+    "max": 0
+  },
+  {
+    "key": "urban_hotspots",
+    "label": "urban hotspots",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "key": "calm_street",
+    "label": "calm street",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "key": "open_corridor",
+    "label": "open corridor",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "key": "green_zones",
+    "label": "green zones",
+    "min": 0,
+    "max": 1
+  },
+  {
+    "key": "multimodal_hubs",
+    "label": "multimodal hubs",
+    "min": 0,
+    "max": 1
+  }
+]
