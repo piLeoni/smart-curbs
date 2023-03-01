@@ -51,8 +51,11 @@ function TabUseCase3(props) {
 
         props.setLegend(
             <LinearLegend
-                min={0}
-                max={displayCategory.max.toFixed(2)}
+                // min={0}
+                // max={displayCategory.max.toFixed(2)}
+                min="LOW"
+                max="HIGH"
+
                 colors={
                     [theme.palette.success.main,
                     theme.palette.secondary.main]
@@ -148,8 +151,8 @@ function TabUseCase3(props) {
                     <Box sx={{ typography: 'h6', color: 'secondary.main' }}>{currentCell.properties.stopName}</Box>
                     <DataBlock label='curb data' values={[
                         { label: 'average speed', value: currentCell.properties.speed.toFixed(2).toString(), suffix: 'km/h' },
-                        { label: 'veicle count', value: currentCell.properties.vehicle_count.toFixed(2).toString() },
-                        { label: 'active count', value: currentCell.properties.active_count.toFixed(2).toString() }
+                        { label: 'vehicle count', value: currentCell.properties.vehicle_count.toFixed(2).toString() },
+                        { label: 'pedestrian count', value: currentCell.properties.active_count.toFixed(2).toString() }
                     ]} />
                 </>
 

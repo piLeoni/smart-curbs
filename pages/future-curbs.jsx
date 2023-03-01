@@ -26,12 +26,24 @@ function InnovatingCurbs(props) {
         <Box >
 
             <HBlock>
-                <FullBodyHeight>
-                    <Paragraph
-                        title={props.intro.title}
-                        subtitle={props.intro.subtitle}
-                        body={props.intro.body}
-                    />
+                <FullBodyHeight >
+                    <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                        <Paragraph
+                            title={props.intro.title}
+                            subtitle={props.intro.subtitle}
+                            body={props.intro.body}
+                        />
+                        <Box sx={{
+                            typography: 'h6',
+                            fontWeight: "regular",
+                            mb: 2,
+                            color: props.color || 'secondary.main'
+                        }}>
+                            <a href="https://www.dropbox.com/s/gg84i63vwfkei1o/Ideation_Report_1025.pdf?dl=0" target="blank">Link to report</a>
+
+                        </Box>
+                    </Box>
+
                 </FullBodyHeight>
             </HBlock>
             <Grid container spacing={2}>

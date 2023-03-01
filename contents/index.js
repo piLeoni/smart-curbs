@@ -35,7 +35,7 @@ const index = {
             journal: 'Landscape and Urban Planning (2023)',
             title: 'Smart Curbs: Measuring the Real-Time Use of Streets Using Computer Vision',
             authors: `Arianna Salazar-Miranda, Fan Zhang, Maoran Sun, Pietro Leoni, Fabio Duarte, Carlo Ratti`,
-            link: 'https://senseable.mit.edu'
+            link: 'https://senseable.mit.edu/papers/pdf/202300227_SalazarMiranda-etal_SmartCurbs_LUP.pdf'
         },
         {
             journal: 'Cities (2022)',
@@ -192,33 +192,25 @@ const innovatingCurbs = {
         `
     },
     slides: {
-        subtitle: `Key ideas for the city of the future.`,
-        body: `The RATP and SCL teams generated an
-        initial portfolio of different ideas,
-        throughout the course of numerous discussion
-        sessions. These ideas ranged from a system
-        of intelligent cameras mounted on RATP’s
-        buses for monitoring human activity and parking patterns, to utilizing artificial intelligence
-        algorithms embedded in urban infrastructure
-        to monitor jaywalking events, and to measuring the microclimate of streetscapes in
-        the city.`,
+        subtitle: `Envisioning the future of curbs`,
+        body: `The RATP and SCL teams generated an initial portfolio of ideas to envision the future of curbs.`,
         images: [{
                 url: "slides/edit/1.jpg",
-                intro: `What types of vehicular and pedestrian activities take place along Paris’ curbs? 
-            In <b>Paris Flows</b>, we aim to understand street use by constructing a comprehensive measurement 
-            of curb usage that captures both the intensity and variation of curbside mobility and occupation. `
+                intro: `What types of vehicular and pedestrian activities take place along curbs? In Paris Flows, 
+                e construct comprehensive measurements of street use that capture both their intensity and use to study curbside mobility and occupation.`
             },
             {
                 url: "slides/edit/2.jpg",
-                intro: `What are the spatial and temporal signatures of parking utilization? 
-            In <b>Parking Dynamics</b>, we aim to analyze the efficient allocation of curbs by 
-            comparing the parking spots in the city to their actual utilization.`
+                intro: `What are the spatial and temporal signatures of parking utilization?
+                In parking dynamics, we aim to analyze the efficient allocation of curbs by comparing 
+                available parking spots to their actual utilization patterns. 
+                `
             },
             {
                 url: "slides/edit/3.jpg",
-                intro: `How accessible are Paris’ curbs for people with disabilities? 
-            In <b>Friendly Curbs</b>, we aim to evaluate accessibility conditions in the sidewalks and 
-            streets of Paris and assess the city’s curb friendliness towards pedestrians. 
+                intro: `Are curbs accessible for people with disabilities? In Friendly Curbs, 
+                we aim to evaluate accessibility conditions on sidewalks and streets of Paris and 
+                assess the city's curb friendliness towards pedestrians. 
             `
             }
 
@@ -245,10 +237,9 @@ const realTimeCurbs = {
         drop off shared mopeds, pick up free-floating scooters, and deliver packages. We develop a methodology to 
         capture these real-time dynamics that can be deployed at scale for entire cities, revealing the complexities and nuances of street use. 
         <br/>
-        We equipped buses with a scanner that collected more than 800,000 real-time images of Parisian streets over 
-        five weeks and used computer vision techniques to process these images and classify them depending on how 
-        space was being used. Our model can recognize up to 30 categories of human activity and transportation, from people 
-        walking or standing to distinguish between cars, vans, and other modes of transportation.`
+        We equipped buses with a scanner that collected more than 800,000 real-time images of Parisian streets over five weeks and used computer 
+        vision techniques to process these images and classify them depending on how space was being used. Our model can recognize up to 30 categories 
+        of human activity and transportation, from people walking or standing to distinguishing between cars, vans, and other modes of transportation.`
     },
     diagrams: {
         intro: {
@@ -260,17 +251,17 @@ const realTimeCurbs = {
         drawings: [{
                 url: "diagrams/CASE_diagrams-03.svg",
                 label: 'Camera Module',
-                details: `The device to capture images every approximately 3 seconds of the external surroundings of the bus. 
-                This allows the device to gather data without requiring any intervention by the bus operator. 
-                The device processes the images locally without saving any images, allowing us to construct rich metrics on street use 
-                without storing images and respecting individual privacy. 
+                details: `The device captures images of the external surroundings of the bus every 3 seconds. 
+                This approach allows for gathering data on street use without requiring any intervention by the bus operator. 
+                The device processes the images locally without saving any images, 
+                allowing us to construct rich metrics on street use without storing images and respecting individual privacy. 
                 `
             },
 
         ]
     },
     lineGrid: {
-        intro: `The map shows the average number of readings, per category, along the public transport line where we conducted the experiment, over a four-week period.`,
+        intro: `The map shows the average number of activities along the public transport line where we conducted the experiment over four weeks.`,
         fields: [
             // { label: 'typ_id', key: 'typ_id', max: 5668 },
             // { label: 'l_70_d.x', key: 'l_70_d.x', max: 1 },

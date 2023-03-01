@@ -126,10 +126,10 @@ function TabSamplesAnimation(props) {
 
                 < Divider sx={{ my: 1 }} />
                 {currentSample && <DataBlock label="Activities Detected" values={[
-                    { label: "pedestrians", value: currentSample?.properties?.samples?.countWalkStand },
+                    { label: "pedestrians", value: currentSample?.properties?.samples?.countWalkStand + currentSample?.properties?.samples?.countSit},
                     // { label: "childrens" , value: currentSample?.properties?.samples?.countChildren },
                     // { label: "queuing", value: currentSample?.properties?.samples?.countQueuing },
-                    { label: "people sitting", value: currentSample?.properties?.samples?.countSit },
+                    // { label: "people sitting", value: currentSample?.properties?.samples?.countSit },
                     // { label: "skaters", value: currentSample?.properties?.samples?.countSkateboarder },
                     { label: "trucks", value: currentSample?.properties?.samples?.countTruck },
                     // { label: "scooters", value: currentSample?.properties?.samples?.countRidingScooter },
