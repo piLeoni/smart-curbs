@@ -9,7 +9,7 @@
         "lint": "next lint",
         "export": "next build && next export",
         "homepage": "https://pileoni.github.io/smart-curbs",
-        "deploy": "touch ./out/.nojekyll gh-pages -d out",
+        "deploy": "touch ./out/.nojekyll && gh-pages -d out",
         "deployPi": "rsync -chavzP --delete  -e 'ssh'  ./out pi@pileoni.mit.edu:/home/pi/ratp-site"
     },
     "dependencies": {
