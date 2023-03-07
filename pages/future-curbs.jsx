@@ -33,7 +33,7 @@ function InnovatingCurbs(props) {
                             subtitle={props.intro.subtitle}
                             body={props.intro.body}
                         />
-                        <Box sx={{
+                        {/* <Box sx={{
                             typography: 'h6',
                             fontWeight: "regular",
                             mb: 2,
@@ -41,7 +41,7 @@ function InnovatingCurbs(props) {
                         }}>
                             <a href="https://www.dropbox.com/s/gg84i63vwfkei1o/Ideation_Report_1025.pdf?dl=0" target="blank">Link to report</a>
 
-                        </Box>
+                        </Box> */}
                     </Box>
 
                 </FullBodyHeight>

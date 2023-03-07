@@ -186,9 +186,8 @@ const innovatingCurbs = {
         and citizens to rethink the future of curbs. This ideation process culminated in a portfolio 
         of over 40 ideas evaluated and scored over eight dimensions related to value, feasibility, and cost. 
         <br/>
-        These ideas ranged from scanners mounted on buses to monitor human activity and parking patterns, 
-        utilizing artificial intelligence algorithms embedded in urban infrastructure to monitor jaywalking events, 
-        and measuring the microclimate of streetscapes in the city. 
+        These ideas include scanners mounted on buses to monitor human activity and parking patterns, utilizing artificial intelligence 
+        algorithms embedded in urban infrastructure to monitor jaywalking events, and measuring the microclimate of streetscapes in the city. 
         `
     },
     slides: {
@@ -197,12 +196,13 @@ const innovatingCurbs = {
         images: [{
                 url: "slides/edit/1.jpg",
                 intro: `What types of vehicular and pedestrian activities take place along curbs? In Paris Flows, 
-                e construct comprehensive measurements of street use that capture both their intensity and use to study curbside mobility and occupation.`
+                we construct comprehensive measurements of street use that capture both their intensity and use 
+                to study curbside mobility and occupation.`
             },
             {
                 url: "slides/edit/2.jpg",
                 intro: `What are the spatial and temporal signatures of parking utilization?
-                In parking dynamics, we aim to analyze the efficient allocation of curbs by comparing 
+                In Parking Dynamics, we aim to analyze the efficient allocation of curbs by comparing 
                 available parking spots to their actual utilization patterns. 
                 `
             },

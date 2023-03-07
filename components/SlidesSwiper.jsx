@@ -45,7 +45,7 @@ function SlidesSwiper(props) {
 
             <Box sx={{ backgroundColor: 'secondary.main', pt: 2, pb: 1 }}>
                 <HBlock sx={{ position: 'relative', height: "100%", display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                    <Box sx={{ position: 'relative', height: "100%" }}>
+                    {/* <Box sx={{ position: 'relative', height: "100%" }}>
 
                         <Paragraph
                             // title={props.contents.title}
@@ -54,12 +54,21 @@ function SlidesSwiper(props) {
                             color='white'
                             columns={1}
                         />
-                    </Box>
+                    </Box> */}
 
+                    <Box sx={{
+                        typography: 'h5',
+                        fontWeight: "regular",
+                        mb: 5,
+                        color: 'white'
+                    }}>
+                        <a href="https://www.dropbox.com/s/gg84i63vwfkei1o/Ideation_Report_1025.pdf?dl=0" target="blank">Download report</a>
+
+                    </Box>
                 </HBlock>
 
                 {!mobileVersion && <Swiper
-                    slidesPerView={mobileVersion ? 1.2 :3}
+                    slidesPerView={mobileVersion ? 1.2 : 3}
                     spaceBetween={10}
                     onSwiper={setFirstSwiper}
 
@@ -69,11 +78,11 @@ function SlidesSwiper(props) {
                         props.contents.images.map((slide, index) => {
                             return (
                                 <SwiperSlide key={`slide-${index}`}
-                                    style={{ boxSizing:'border-box'   }}
+                                    style={{ boxSizing: 'border-box' }}
                                 // onClick={s => handleClick(index)} 
                                 >
 
-                                    <Box sx={{ display: 'flex',position: 'relative' }} >
+                                    <Box sx={{ display: 'flex', position: 'relative' }} >
                                         <img style={{
                                             width: '100%'
                                         }} src={`${process.env.NEXT_PUBLIC_BASE_PATH}/${slide.url}`} alt="" />

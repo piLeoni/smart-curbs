@@ -151,8 +151,8 @@ function TabUseCase3(props) {
                     <Box sx={{ typography: 'h6', color: 'secondary.main' }}>{currentCell.properties.stopName}</Box>
                     <DataBlock label='curb data' values={[
                         { label: 'average speed', value: currentCell.properties.speed.toFixed(2).toString(), suffix: 'km/h' },
-                        { label: 'vehicle count', value: currentCell.properties.vehicle_count.toFixed(2).toString() },
-                        { label: 'pedestrian count', value: currentCell.properties.active_count.toFixed(2).toString() }
+                        // { label: 'vehicle count', value: currentCell.properties.vehicle_count.toFixed(2).toString() },
+                        // { label: 'pedestrian count', value: currentCell.properties.active_count.toFixed(2).toString() }
                     ]} />
                 </>
 
